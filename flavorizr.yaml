@@ -1,0 +1,15 @@
+flavors:
+  dev:
+    app:
+      name: "TMDB client DEV"
+    android:
+      applicationId: "com.tmdb_client.app.dev"
+    ios:
+      bundleId: "com.tmdb_client.app.dev"
+  prod:
+    app:
+      name: "TMDB client"
+    android:
+      applicationId: "com.tmdb_client.app"
+    ios:
+      bundleId: "com.tmdb_client.app"

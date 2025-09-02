@@ -1,0 +1,49 @@
+{
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.lineLength": 100,
+  "dart.analysisExcludedFolders": [
+    "lib/generated",
+    "lib/l10n",
+    "build",
+    "macos",
+    "swagger"
+  ],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns":{
+    "pubspec.yaml": "pubspec.lock, .flutter-plugins, .flutter-plugins-dependencies, .packages",
+    "analysis_options.yaml": "analysis_options.yaml.sonar"
+  },
+  "task.allowAutomaticTasks": "on",
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "ipynb": false,
+    "javascript": false,
+    "typescript": false,
+    "python": false,
+    "java": false,
+    "csharp": false,
+    "go": false,
+    "php": false,
+    "ruby": false,
+    "swift": false,
+    "kotlin": false,
+    "scala": false,
+    "rust": false,
+    "dart": true
+  },
+  "testing.automaticallyOpenTestResults": "neverOpen"
+}
